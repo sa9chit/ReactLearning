@@ -1,5 +1,6 @@
 import { SocialMedia } from "./socialMedia";
-import ImgLogo from "./logooo/sanchit.png"
+import ImgLogo from "./logooo/sanchit.png";
+import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
@@ -8,10 +9,11 @@ const Navigation = () => {
       </span>
       <div className="navData">
         <ul className="ul">
-          <li className="li">Home</li>
-          <li className="li">Project</li>
-          <li className="li">About</li>
-          <li className="li">Contact</li>
+        <NavLink to= "/" className='' >Home</NavLink>
+        <NavLink to= "/" className=''>Project</NavLink>
+        <NavLink to= "/" className=''>About</NavLink>
+        <NavLink to= "/" className=''>Contact</NavLink>
+        
         </ul>
         <SocialMedia />
       </div>
