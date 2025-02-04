@@ -16,7 +16,7 @@ export const Login = () => {
     placeholder="Username"
     className="w-[70%] h-[5vh] bg-white/5 rounded-lg border-0 text-white placeholder-gray-400 focus:outline-2 focus:outline-purple-500 focus:bg-white/10 transition-all duration-300"
   />
-</div>
+</div >
 
 
           <div className="flex w-full justify-center">
